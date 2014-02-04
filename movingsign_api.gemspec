@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "movingsign_api"
   spec.version       = MovingsignApi::VERSION
   spec.authors       = ["Eric Webb"]
-  spec.email         = ["eric@collectivegenius.net"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.email         = ["opensource@collectivegenius.net"]
+  spec.description   = "MovingSign Communication Protocol V2.1 Implementation in Ruby"
+  spec.summary       = "MovingSign Communication Protocol V2.1 Implementation in Ruby"
   spec.homepage      = ""
   spec.license       = "MIT"
 
