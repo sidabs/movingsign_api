@@ -1,3 +1,3 @@
 module MovingsignApi
-  VERSION = "0.0.2-alpha"
+  VERSION = "0.0.2.dev"
 end
