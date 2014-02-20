@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["opensource@collectivegenius.net"]
   spec.description   = "MovingSign Communication Protocol V2.1 Implementation in Ruby"
   spec.summary       = "MovingSign Communication Protocol V2.1 Implementation in Ruby"
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/webmonarch/movingsign_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
