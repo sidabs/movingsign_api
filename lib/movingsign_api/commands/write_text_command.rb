@@ -107,7 +107,7 @@ module MovingsignApi
       bytes.concat string_to_ascii_bytes('000')           # Reserved
       bytes.concat self.align_mode.to_bytes           # Align Mode
       #bytes.concat string_to_ascii_bytes("\xFD\x42" + self.text.gsub("\n", "\x7F"))           # Text
-      bytes.concat string_to_ascii_bytes(self.text.gsub("\n", "\x7F"))           # Text
+      bytes.concat string_to_ascii_bytes(self.text)           # Text
 
       bytes
     end
